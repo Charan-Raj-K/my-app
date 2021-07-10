@@ -1,7 +1,7 @@
 node{
   stage('SCM Checkout')
   {
-  git 'https://github.com/Prathi-07/my-app'
+  git 'https://github.com/Prathi-07/my-app.git',branch: 'master'
   }
   stage('compile-package'){
   //get maven home path
